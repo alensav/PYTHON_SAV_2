@@ -1,0 +1,406 @@
+﻿p {
+    margin-bottom: 20px;
+text-indent: 1.5em; 
+}
+
+.block0 {
+    width: 100%;
+    height: 100%;
+    position: relative;
+    background: #ffffb3;
+    /* ng: 1px; */
+    padding-right: 0px;
+    border: black;
+    float: left;
+}
+
+
+/* Для SAV22-1_2kor */
+
+.block01 {
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    background: #ffffb3;
+    padding-right: 0px;
+    border: black;
+    float: left;
+    scrolling="yes"
+}
+
+.block0 {
+    width: 100%;
+    height: 100%;
+    position: relative;
+    background: #ffffb3;
+    padding-right: 0px;
+    border: black;
+    float: left;
+}
+
+.block1-1 {
+    width: 11%;
+    height: 8%px;
+    background: #eeffcc;
+    top: 10px;
+    left: 10px;
+    /*padding: 800px; */
+    border: solid 2px black;
+    /* margin-top: 5px; */
+    float: left;
+    position: fixed;
+    /* margin: 800px; */
+    /* top: 40px; */
+    /* left: -70px;*/
+}
+
+.block1-2 {
+    width: 93%;
+    height: 11%;
+    top: 15px;
+    left: 7%;
+    background: url(ФОН1.jpg) center center;
+    position: fixed;
+    /* padding: 5px; */
+    /* padding-right: 20px; */
+    border: solid 1px black;
+    float: left;
+}
+
+.block2 {
+    width: 99%;
+    height: 65%;
+    top: 14%;
+    left: 20px;
+    background: #cce0ff;
+    position: fixed;
+    /*padding: 5px; */
+    /* padding-right: 20px; */
+    border: solid 1px black;
+}
+
+.block22 {
+    width: 99%;
+    height: 72%;
+    top: 13%;
+    left: 20px;
+    background: url("ФОН3.jpg");
+    margin-right: 20px;
+    position: fixed;
+    /*padding: 5px; */
+    /* padding-right: 20px; */
+    border: solid 1px black;
+}
+
+.block2-1 {
+    width: 99%;
+    height: 70%;
+    top: 15%;
+    left: 20px;
+    background: url(ФОН1.jpg);
+    position: fixed;
+    border: solid 1px black;
+}
+
+
+/* ТЦ  */
+
+.block2-11 {
+    width: 33%;
+    height: 80%;
+    top: 15%;
+    left: 20px;
+    background: #ccc;
+    position: fixed;
+    border: solid 1px black;
+}
+
+
+/*.block2-12 { 
+    width: 33%;
+    height: 80%;
+     top:15%;
+    left: 20px;
+    background: #ccc;
+     position: fixed; 
+           border: solid 1px black; 
+   }*/
+
+
+/* end*/
+
+.text-block {
+    margin-left: 820px;
+}
+
+.block2-2 {
+    width: 94%;
+    height: 22%x;
+    top: 31%;
+    left: 40px;
+    background: #ccc;
+    position: fixed;
+    border: solid 1px black;
+    float: left;
+}
+
+.block3 {
+    width: 64%;
+    height: 40%;
+    top: 54%;
+    left: 20px;
+    background: #ccffcc;
+    position: fixed;
+    padding: 5px;
+    padding-right: 20px;
+    border: 0;
+    /*float: left;*/
+}
+
+.block1-31 {
+    width: 99%;
+    height: 6%;
+    top: 86%;
+    left: 20px;
+    background: #ccffcc center center;
+    position: fixed;
+    border: 2;
+}
+
+.block1-3 {
+    width: 99%;
+    height: 18%;
+    top: 96%;
+    left: 20px;
+    background: url(ФОН1.jpg) center center;
+    position: fixed;
+    /* padding: 5px; */
+    /* padding-right: 20px; */
+    border: solid 2px black;
+    float: left;
+}
+
+
+/*Для SAV22_2 */
+
+.block1-35 {
+    width: 99%;
+    height: 80px;
+    top: 99%;
+    left: 20px;
+    background: url(ФОН1.jpg) center center;
+    position: fixed;
+    /* padding: 5px; */
+    /* padding-right: 20px; */
+    border: solid 2px black;
+    float: left;
+}
+
+
+/* Для SAV22_2 */
+
+.block4 {
+    width: 99%;
+    height: 97%;
+    position: fixed;
+    background: #ccffdd;
+    align: right;
+    top: 100px;
+    left: 20px;
+    padding-right: 0px;
+    border: solid 2px black;
+}
+
+.block41 {
+    width: 49%;
+    height: 95%;
+    position: fixed;
+    background: #ccffdd;
+    align: right;
+    top: 10%;
+    left: 30px;
+    padding-right: 0px;
+    border: solid 2px black;
+}
+
+.block42 {
+    width: 49%;
+    height: 95%;
+    position: fixed;
+    background: #ccffdd;
+    align: right;
+    top: 10%;
+    left: 51%;
+    padding-right: 0px;
+    border: solid 2px black;
+}
+
+
+/* конец */
+
+.vyrovnyat {
+    background: #fff;
+    text-align: center;
+    height: 5%;
+}
+
+.fon1 {
+    background: url("ФОН3.jpg");
+}
+
+.twit {
+    display: inline-block;
+    vertical-align: bottom;
+    width: 24px;
+    height: 24px;
+    margin: 0 20px 0px 0;
+    padding: 0;
+    outline: none;
+    background: url(путь до файла со спрайтом/icons.png) -0px 0 no-repeat;
+}
+
+.vkon {
+    display: inline-block;
+    vertical-align: bottom;
+    width: 24px;
+    height: 24px;
+    margin: 18px 20px 0px 0;
+    padding: 0;
+    outline: none;
+    background: url(путь до файла со спрайтом/icons.png) -24px 0 no-repeat;
+}
+
+.face {
+    display: inline-block;
+    vertical-align: bottom;
+    width: 24px;
+    height: 24px;
+    margin: 0 20px 0px 0;
+    padding: 0;
+    outline: none;
+    background: url(путь до файла со спрайтом/icons.png) -48px 0 no-repeat
+}
+
+.goog {
+    display: inline-block;
+    vertical-align: bottom;
+    width: 24px;
+    height: 24px;
+    margin: 0 20px 0px 0;
+    padding: 0;
+    outline: none;
+    background: url(путь до файла со спрайтом/icons.png) -96px 0 no-repeat
+}
+
+.rsskt {
+    display: inline-block;
+    vertical-align: bottom;
+    width: 24px;
+    height: 24px;
+    margin: 0 20px 0px 55px;
+    padding: 0;
+    outline: none;
+    background: url(путь до файла со спрайтом/icons.png) -120px 0 no-repeat
+}
+
+.emailkt {
+    display: inline-block;
+    vertical-align: bottom;
+    width: 24px;
+    height: 24px;
+    margin: 0 20px 0px 0;
+    padding: 0;
+    outline: none;
+    background: url(путь до файла со спрайтом/icons.png) -144px 0 no-repeat
+}
+
+
+/* Кнопка */
+
+.btn {
+    /*//Задание общего стиля для кнопки */
+    height: 60px;
+    border-color: #c2e254 #9bb838 #9bb838 #c2e254;
+    border-style: solid;
+    border-width: 2px;
+    background: #ffff00;
+    cursor: pointer;
+}
+
+.btn:hover {
+    /*//Стиль кнопки при новедении на него курсора */
+    border-color: #FFCC66 #FFFF99 #FFFF99 #FFCC66;
+    border-style: solid;
+    border-width: 1px;
+    background: #FFFF99;
+}
+
+.btn:focus {
+    /*//Стиль кнопки, когда она в фокусе*/
+    background: #ddd;
+    border-color: #ddd #333 #333 #ddd;
+    border-style: solid;
+    border-width: 1px;
+}
+
+.btn:active {
+    /*//Стиль кнопки при нажатии*/
+    background: #ff0000;
+    border-color: #ddd #333 #333 #ddd;
+    border-style: solid;
+    border-width: 2px;
+}
+
+.button {
+    width: 250px;
+    height: 40px;
+    border: 3px solid #0a3c59;
+    background: #3e779d;
+    background: -webkit-gradient(linear, left top, left bottom, from(#65a9d7), to(#3e779d));
+    background: -webkit-linear-gradient(top, #65a9d7, #3e779d);
+    background: -moz-linear-gradient(top, #65a9d7, #3e779d);
+    background: -ms-linear-gradient(top, #65a9d7, #3e779d);
+    background: -o-linear-gradient(top, #65a9d7, #3e779d);
+    background-image: -ms-linear-gradient(top, #65a9d7 0%, #3e779d 100%);
+    /*padding: 12px 24px;*/
+    -webkit-border-radius: 6px;
+    -moz-border-radius: 6px;
+    border-radius: 6px;
+    -webkit-box-shadow: rgba(255, 255, 255, 0.4) 0 1px 0, inset rgba(255, 255, 255, 0.4) 0 1px 0;
+    -moz-box-shadow: rgba(255, 255, 255, 0.4) 0 1px 0, inset rgba(255, 255, 255, 0.4) 0 1px 0;
+    box-shadow: rgba(255, 255, 255, 0.4) 0 1px 0, inset rgba(255, 255, 255, 0.4) 0 1px 0;
+    text-shadow: #7ea4bd 0 1px 0;
+    color: #eff1f2;
+    font-size: 17px;
+    font-family: helvetica, serif;
+    text-decoration: none;
+    vertical-align: middle;
+}
+
+
+/* Для SAv22-1_2   размещение фото */
+
+.rightpic {
+    float: left;
+    /* Выравнивание по левому краю */
+    margin: 0 0 0 0/* Отступы вокруг фотографии */
+}
+
+html,
+body {
+    height: 100%;
+}
+
+
+/* Рекомендации по размеру DIV */
+
+div {
+    overflow: hidden;
+    min-height: 100%;
+    max-height: 100%
+}
+
+.exmpl img {
+    height: 100%;
+    width: auto;
+}

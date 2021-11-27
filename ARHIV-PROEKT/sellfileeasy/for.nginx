@@ -1,0 +1,7 @@
+# nginx configuration
+location /sellfileeasy/archive/ {
+if (-e $request_filename){
+rewrite ^/sellfileeasy/archive/([0-9\.]+\/.+)$ /sellfileeasy/archive/../download.php?file=$1 break;
+}
+rewrite ^/sellfileeasy/archive/(.*)$ /sellfileeasy/archive/index.html break;
+}

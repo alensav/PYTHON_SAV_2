@@ -1,0 +1,4 @@
+RewriteEngine On
+RewriteCond %{REQUEST_FILENAME} -f
+RewriteRule ^([0-9\.]+\/.+)$ ../download.php?file=$1 [L,QSA]
+RewriteRule ^(.*)$ index.html [L,QSA]

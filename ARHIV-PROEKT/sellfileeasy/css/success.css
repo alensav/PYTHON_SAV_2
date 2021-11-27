@@ -1,0 +1,55 @@
+body {
+	background-color: #dfdede;
+	color:#333;
+	font-family: Arial, Tahoma;
+}
+#email_form, #robokassa {
+	display: block;
+	width: 700px;
+	height: 400px;
+	margin: 100px auto 0px auto;
+	background-color: #ffffff;
+	box-shadow:1px 5px 8px #b6b5b5;
+}
+#top_title {
+	display: block;
+	height: 70px;
+	line-height: 70px;
+	background-color: #005594;
+	color: #ffffff;
+	text-align: center;
+	font-size: 35px !important;
+	font-weight: bold !important;
+}
+#conteiner {
+	padding: 0px 20px 20px 20px;
+}
+#email_form div, #robokassa div {
+	font-size: 18px;
+	font-weight: normal;
+}
+#email_form div i {
+	font-size: 18px;
+	font-weight: bold;
+	color: #33aa33;
+}
+#email_form div label {
+	font-size: 18px;
+	font-weight: normal;
+}
+#email_form span {
+	float: left;
+	width: 100px;
+	margin: 10px 0px 0px 90px;
+	font-size: 18px;
+	font-weight: normal;
+	color: #000000;
+}
+.copyright {
+	display: block;
+	width: 700px;
+	margin: 10px auto;
+	font-size: 16px;
+	font-weight: normal;
+	color: #000000;
+}

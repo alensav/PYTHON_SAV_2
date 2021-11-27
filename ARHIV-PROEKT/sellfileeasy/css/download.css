@@ -1,0 +1,145 @@
+body {
+	background-color: #eeeded;
+	color:#333;
+	font-family: Arial, Tahoma;
+}
+#email_form, #robokassa {
+	display: block;
+	width: 700px;
+	margin: 100px auto 0px auto;
+	background-color: #ffffff;
+	box-shadow:1px 5px 8px #b6b5b5;
+}
+#top_title {
+	display: block;
+	height: 70px;
+	line-height: 70px;
+	background-color: #005594;
+	color: #d1e9fa;
+	text-align: center;
+	font-size: 35px !important;
+	font-weight: bold !important;
+}
+#conteiner {
+	padding: 0px 20px 50px 20px;
+}
+#email_form div, #robokassa div {
+	font-size: 18px;
+	font-weight: bold;
+}
+#email_form div i {
+	font-size: 18px;
+	font-weight: bold;
+	color: #33aa33;
+}
+#email_form div label {
+	font-size: 18px;
+	font-weight: normal;
+}
+#email_form span {
+	float: left;
+	width: 100px;
+	margin: 10px 0px 0px 90px;
+	font-size: 18px;
+	font-weight: normal;
+	color: #000000;
+}
+#email_form input[type=text] {
+	width: 300px;
+	padding: 10px;
+	font-size: 18px;
+	font-weight: normal;
+	color: #333;
+	border: 1px solid #aaa;
+	background-color: #ecebeb;
+	margin: 0px 0px 5px 0px;
+}
+#email_form input[type=submit] {
+	float: left;
+	margin: 5px 0px 0px 200px;
+	width: 300px;
+	padding: 15px;
+	font-size: 18px;
+	font-weight: normal;
+	color: #ffffff;
+	border: none;
+	background-color: #f5aa00;
+	cursor:pointer;
+	border-radius:5px;
+}
+
+#email_form input[type=submit]:hover {
+	background-color: #f59000;
+}
+
+#robokassa input {
+	padding: 10px;
+	font-size: 18px;
+	font-weight: normal;
+	color: #000000;
+	border: none;
+	background-color: #edecec;
+	margin: 0px 10px 0px 0px;
+}
+#robokassa select {
+	padding: 10px;
+	font-size: 18px;
+	font-weight: normal;
+	color: #000000;
+	border: none;
+	background-color: #edecec;
+	margin: 0px 10px 0px 0px;
+}
+#robokassa input[type=button] {
+	padding: 10px;
+	font-size: 18px;
+	font-weight: normal;
+	color: #ffffff;
+	border: none;
+	background-color: #f5aa00;
+	cursor:pointer;
+	border-radius:5px;
+}
+
+#robokassa input[type=button]:hover {
+	background:#f59000;
+}
+#robokassa a {
+	display: none;
+}
+#robokassa table {
+	border: none !important;
+}
+
+
+.patmentbutton {
+	display: block;
+	margin: 5px auto 0px auto;
+	width: 300px;
+	padding: 15px;
+	font-size: 18px;
+	font-weight: normal;
+	color: #ffffff !important;
+	border: none;
+	background-color: #f5aa00 !important;
+	cursor:pointer;
+	border-radius:5px;
+}
+
+.patmentbutton:hover {
+	background-color: #f59000 !important;
+}
+
+.copyright {
+	display: block;
+	width: 690px;
+	margin: 10px auto;
+	font-size: 16px;
+	font-weight: normal;
+	color: #555;
+}
+.alert {
+	padding: 20px 0px 0px 0px;
+	color: #ee3333;
+	text-align: center;
+}

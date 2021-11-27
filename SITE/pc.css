@@ -1,0 +1,178 @@
+header {
+    height: 60px;
+}
+
+header h1 {
+    font-size: 36px;
+    letter-spacing: 40px;
+    text-transform: uppercase;
+}
+
+header h2 {
+    font-size: 16px;
+    letter-spacing: 4px;
+    text-transform: lowercase;
+    margin: 0px;
+}
+
+header div {
+    position: absolute;
+}
+
+#header_1 {
+    left: 30px;
+    top: 10px;
+}
+
+#header_2 {
+    right: calc((2*100% / 3) - 100px);
+    top: 10px;
+}
+
+#header_3 {
+    right: calc((2*100% / 3) / 2 - 50px);
+    top: 20px;
+}
+
+#header_4 {
+    right: 10px;
+    top: 30px;
+}
+
+nav {
+    float: left;
+    width: 270px;
+    overflow: auto;
+    height: cal(100vh - 60px - 30px);
+}
+
+nav a {
+    display: block;
+}
+
+nav>a {
+    font-size: 14pt;
+    padding: 5px 5px;
+    width: 230px;
+    border: 1px solid #000000;
+    border-top: none;
+}
+
+nav>a:first-child {
+    border-top: 1px solid #000000;
+}
+
+nav>div {
+    width: 240px;
+    border: 1px solid #000000;
+}
+
+nav>div>a {
+    font-size: 12pt;
+    padding: 4px 5px 4px 10px;
+    width: 233px;
+}
+
+nav a:link,
+nav a:visited,
+nav a:active,
+nav a:hover {
+    color: #680148;
+    text-decoration: none;
+}
+
+nav a:active,
+nav a:hover,
+nav a.active {
+    color: #ffffff;
+    background-color: #680148;
+    transition: color 0.5s, background-color 0.5s;
+}
+
+nav a:link,
+nav a:visited {
+    transition: color 1s, background-color 1s;
+}
+
+nav a:active,
+nav a:hover,
+nav a:active,
+nav:hover {
+    color: #680148;
+    text-decoration: none;
+}
+
+p,
+div,
+pre,
+li,
+th,
+td {
+    font-size: 10pt;
+}
+
+h6 {
+    font-size: 12pt;
+}
+
+h5 {
+    font-size: 14pt;
+}
+
+h4 {
+    font-size: 16pt;
+}
+
+h3 {
+    font-size: 18pt;
+}
+
+h2 {
+    font-size: 20pt;
+}
+
+h1 {
+    font-size: 22pt;
+}
+
+a:link,
+a:visited {
+    text-decoration: none;
+}
+
+a:active,
+a:hover {
+    text-decoration: underline;
+}
+
+footer {
+    clear: both;
+    padding: 0px;
+    height: 14px;
+}
+
+footer p {
+    font-size: 10pt;
+}
+
+.spoiler h6 a:active,
+.spoiler h6 a:hover {
+    color: #ffffff;
+    transition: color 0.5s;
+}
+
+.lightbox a:link,
+.lightbox a:visited {
+    opacity: 0.7;
+    transition: opacity 0.5s;
+}
+
+.lightbox a:hover {
+    opacity: 1;
+    transition: opacity 0.5s;
+}
+
+#lightbox_close a:active,
+#lightbox_close a:hover {
+    color: #000000;
+}

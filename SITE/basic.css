@@ -1,0 +1,308 @@
+body {
+    color: #000000;
+    background-color: #ffffff;
+    font-family: sans-serif;
+    margin: 0px;
+    overflow: hidden
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-weight: normal;
+}
+
+a:link,
+a:active,
+a:hover {
+    color: #680148;
+}
+
+a:visited {
+    color: #ab86b6;
+}
+
+header {
+    background-color: #e0eff1;
+}
+
+header h1 {
+    margin: 0px;
+}
+
+section {
+    padding: 5px;
+    overflow: auto;
+}
+
+section {
+    float: right;
+    width: calc(100vw - 270px -10px);
+    height: calc(100vh - 60px - 30px - 10px);
+}
+
+section {
+    counter-reset: couter-h2 counter-h3 counter-h4 counter-h5 counter-h6;
+}
+
+section h2:before {
+    counter-increment: counter-h2;
+    counter-reset: counter-h3;
+    content: counter (counter-h2) ". ";
+}
+
+section h3:before {
+    counter-increment: counter-h3;
+    counter-reset: counter-h4;
+    content: counter (counter-h2) "." counter (counter-h3) ". ";
+}
+
+section h4:before {
+    counter-increment: counter-h4;
+    counter-reset: counter-h5;
+    content: counter (counter-h2) "." counter (counter-h3) "." counter (counter-h4) ". ";
+}
+
+section h5:before {
+    counter-increment: counter-h5;
+    counter-reset: counter-h6;
+    content: counter (counter-h2) "." counter (counter-h3) "." counter (counter-h4) "." counter (counter-h5) ". ";
+}
+
+section h6:before {
+    counter-increment: counter-h6;
+    content: counter (counter-h2) "." counter (counter-h3) "." counter (counter-h4) "." counter (counter-h5) ". "counter (counter-h6) ". ";
+}
+
+div.media {
+    text-align: center;
+    margin: 20px 0px 0px 0px;
+}
+
+div.media img,
+div.media audio,
+div.media video {
+    max-width: calc(100% - 40px);
+    max-height: 300px;
+}
+
+div.media~div.sign {
+    font-style: italic;
+    text-align: center;
+}
+
+form {
+    display: block;
+    padding: 5px;
+    border: 1px solid #e0eff1;
+}
+
+form .label {
+    margin: 10px 0px 2px 0px;
+}
+
+form .label:first-child {
+    margin-top: 0px;
+}
+
+input,
+textarea,
+select {
+    border: 4px double #7db4b5;
+    transition: border-color 1s;
+}
+
+textarea {
+    font-family: monospace;
+    width: calc(100% - 10px);
+}
+
+input:focus,
+textarea:focus,
+select:focus,
+input:hover,
+textarea:hover,
+select:hover {
+    border: 4px double #680148;
+    transition: border-color 0.5s;
+}
+
+form .button {
+    text-align: right;
+    margin: 15px 0px 0px 0px;
+}
+
+input [type=submit],
+input [type=button],
+input [type=reset] {
+    font-weight: bold;
+    background-color: #7db4b5;
+    min-width: 60px;
+    border: 1px solid #7db4b5;
+    transition: color 1s, background-color 1s, border-color 1s;
+}
+
+input [type=submit]:focus,
+input [type=button]:focus,
+input [type=reset]:focus,
+input [type=submit]:hover,
+input [typebutton]:hover,
+input [type=reset]:hover {
+    color: #ffffff;
+    background-color: #680148;
+    border: 1px solid #680148;
+    transition: color 0.5s, background-color 0.5s, border-color 0.5s;
+}
+
+input,
+textarea,
+select {
+    font-size: 10pt;
+}
+
+input [type=submit],
+input [type=button],
+input [type=reset] {
+    cursor: pointer;
+}
+
+footer {
+    background-color: #e0eff1;
+}
+
+footer p {
+    font-style: italic;
+    text-align: right;
+    margin: 0px;
+}
+
+.spoiler {
+    margin-top: 20px;
+    border: 1px solid #7db4b5;
+}
+
+.spoiler h6 {
+    background-color: #7db4b5;
+    margin: 0px;
+    padding: 2px 5px;
+}
+
+.spoiler h6::before {
+    counter-increment: none;
+    content: none;
+}
+
+.spoiler h6 {
+    font-family: monospace;
+}
+
+.spoiler h6 a:link,
+spoiler h6 a:visited,
+.spoiler h6 a:active,
+.spoiler h6 a:hover {
+    text-decoration: none;
+}
+
+.spiler h6 a:link,
+.spoiler a:visited {
+    color: #000000;
+    transition: color 0.5s;
+}
+
+.spoiler>div {
+    padding: 10px;
+    overflow: hidden;
+    transition: height 0.5s, padding 0.5s;
+}
+
+.spoiler>div *:first-child {
+    margin-top: 0px;
+}
+
+.spoiler>div.condensed {
+    padding: 0px 10px;
+    transition: height 0.5s, padding 0.5s;
+}
+
+.lightbox aslink,
+.lightbox a:visited,
+.lightbox a:active,
+.lightbox a:hoveг {
+    color: t680148;
+    text-decoration: none;
+}
+
+•lightbox a span.text {
+    font-size: smaller;
+}
+
+#lightbox cover {
+    background-color: #cccccc;
+    opacity: 0.0;
+    position: fixed;
+    left: Opx;
+    top: Opx;
+    right: Opx;
+    bottom: Opx;
+    visibility: hidden;
+    cursor: pointer;
+    transition: opacity 0.5s
+}
+
+#lightbox_window {
+    background-color: ttffffff;
+    padding: 20px;
+    border: 3px solid #000000;
+    border-radius: 1Opx;
+    position: fixed;
+    left: 50px;
+    top: 50px;
+    right: 50px;
+    bottom: 50px;
+    opacity: 0.0;
+    visibility: hidden;
+    transition: opacity 0.5s
+}
+
+.lightbox_window.active {
+    opacity: 1.0;
+    visibility: visible;
+    transition: opacity 0.5s
+}
+
+.lightbox_window table {
+    width: 100%;
+    height: 100%;
+}
+
+.lightbox_window table td {
+    text-align: center;
+}
+
+.lightbox_window table td img {
+    max-width: calc(100vw - 140px);
+    max-height: calc(100vh - 140px);
+}
+
+.lightbox close {
+    font-size: larger;
+    font-weight: bold;
+    position: absolute;
+    top: 14px;
+    right: 14px;
+}
+
+.lightbox_close a:link,
+#lightbox_close asvisited,
+#lightbox close a:active,
+#lightbox close a:hover {
+    text-decoration: none;
+}
+
+#lightbox_close a:link,
+#lightbox close a:visited {
+    color: #680148;
+}

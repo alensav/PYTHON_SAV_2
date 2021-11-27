@@ -1,0 +1,86 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8"> 
+ <meta name="keywords" content="HTML,CSS,XML,JavaScript">
+ <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="style.css" rel="stylesheet" >
+  <title>LESSON SAV</title>
+</head>
+<body>
+<center><h1>СВОЙСТВА ШРИФТА</h1></center>
+<p><h3>font-family</h3></p>
+<p>Используется для указания шрифта или шрифтового семейства, которым будет отображаться элемент.
+P {font-family: Times New Roman, sans-serif;}</P>
+<p><h3>font-weight</h3><p/p>
+<p>Определяет степень жирности шрифта с помощью трех параметров:
+ lighter, bold, bolder
+B {font-weight: bolder;}</p>
+<p><h3>font-size</h3></p>
+
+<p>Устанавливает размер шрифта. Параметр может указываться как в относительной (проценты), так и абсолютной величине (пункты, пикселы, сантиметры)<br>
+H1 {font-size: 200%;}<br>
+H2 {font-size: 150px;}<br>
+H3 {font-size: 400pt;}</P><br>
+
+<center><h2>ЦВЕТ ЭЛЕМЕНТА И ЦВЕТ ФОНА</h2></center>
+<p><h3>color</h3></p>
+<p>Определяет цвет элемента
+I {color: yellow;} </p><br>
+<p><h3>background-color</h3></p>
+
+Устанавливает цвет фона для элемента – именно для элемента, а не для странички. Обратите внимание, что броузеры отображают это свойство по-разному: Microsoft IE отводит под фон элемента всю доступную ширину страницы, а Netscape Navigator – лишь ширину, занимаемую этим элементом. Посмотрите пример (рис. 3, 4 ), вот его исходный код:</p>
+
+<xmp><HTML>
+<HEAD>
+<TITLE>Пример использования CSS</TITLE>
+
+<STYLE type=”text/css”>
+H1 {font-size: 300%;}
+</STYLE>
+</HEAD>
+
+<BODY bgcolor=white>
+<center><BR>
+<H1 style=”background-color: teal; color: white;”>Cascading</H1>
+<H1 style=”background-color: navy; color: yellow;”>Style</H1>
+<H1 style=”background-color: gold; color: brown;”>Sheets</H1>
+</BODY>
+</HTML></xmp>
+
+<p>В этом примере в разделе STYLE всем элементам Н1 на этой страничке был установлен размер 300 % от нормы. Затем каждому из элементов H1 были присвоены собственные значения цвета фона и цвета символов. </p>
+<center><h2>СВОЙСТВА ТЕКСТА</h2></center>
+<p><h3>text-decoration</h3></p>
+<p>Устанавливает эффекты оформления шрифта, такие, как подчеркивание или зачеркнутый текст</p><br>
+
+<p>H4 {text-decoration: underline;}<br>
+A {text-decoration: none;}<br>
+.wrong {text-decoration: line-through;} </p>
+<p>text-align</p>
+
+<p>Определяет выравнивание элемента. <br>
+P {text-align: justify}<br>
+H1 {text-align: center} </p><br>
+<p>text-indent</p>
+
+<p>Устанавливает отступ первой строки текста. Чаще всего используется для создания параграфов с табулированной первой строкой.
+P {text-indent: 50pt;}</p> 
+<p>line-height</p>
+
+<p>Управляет интервалами между строками текста.
+P {line-height: 50 %} </p>
+<center><h2>СВОЙСТВА ГРАНИЦ</h2></center>
+<p><h3>margin-left</h3></p>
+
+<p>Устанавливают значения отступов вокруг элемента.
+IMG { margin-right: 20pt}<br>
+P { margin-left: 2cm} <br>
+margin-right<br>
+margin-left<br>
+margin-top<br>
+
+ЕДИНИЦЫ ИЗМЕРЕНИЯ pxПикселы cm -Сантиметры, mm Миллиметры,pt-Пункты (типограф.)%-Проценты
+
+
+</body>
+</html>
